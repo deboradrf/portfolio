@@ -1,0 +1,189 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#navbar {
+    flex-direction: column;
+    background: linear-gradient(111deg, rgba(136,15,216,1) 0%, rgba(57,13,136,1) 98%, rgba(60,13,143,1) 100%);
+    border-radius: 10px;
+}
+
+.nav-item {
+    margin: 0 30px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav-link {
+    color: white !important;
+    transition: 0.5s ease;
+}
+
+.nav-link:hover {
+    transform: scale(1.03);
+}
+
+#image img {
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateX(-20px);
+}
+
+#image img#animar {
+    animation-name: slide;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -50%;
+    height: 150px;
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+    opacity: 0;
+    transform: translateX(-20px);
+}
+
+.apresentacao#animar {
+    animation-name: slide;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-img {
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.about-me p {
+    text-align: justify;
+}
+
+.skills-title {
+    display: flex;
+    justify-content: center;
+}
+
+.card-skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    padding: 20px 0px 0px 0px;
+}
+
+#card-project {
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#card-project .card-text {
+    text-align: justify;
+}
+
+.card-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white !important;
+    border: none !important;
+}
+
+#badge {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.badge {
+   margin: 3px;
+   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.github {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.github p a {
+    color: black;
+    text-decoration: none;
+}
+
+#contato {
+    height: 200px;
+    background: linear-gradient(111deg, rgba(136,15,216,1) 0%, rgba(57,13,136,1) 98%, rgba(60,13,143,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*botoes*/
+#btn-download {
+    width: 130px;
+}
+
+#btn-project, #btn-download {
+    border-image-slice: 1;
+    border-width: 1px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    transition: 0.5s ease;
+}
+
+#btn-project:hover {
+    transform: scale(1.03);
+}
+
+#btn-project a, #btn-download a {
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .apresentacao {
+        border: none;
+        margin-left: 0px;
+    }
+}
