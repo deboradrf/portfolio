@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4392b60e4c.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="home">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-8" id="image">
+                <img id="animar" src="./img/capa.jpg">
+            </div>
+            <div class="col-sm-12 col-md-4 m-auto">
+                <div class="apresentacao" id="animar">
+                    <h1>Débora Fonseca</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 mt-5" id="about">
+                <div class="about-me">
+                    <img class="my-img" src="./img/eu.png">
+                    <p>Estudante de Análise e Desenvolvimento de Sistemas na PUC Minas, comprometida com o aperfeiçoamento das minhas habilidades e desenvolvimento profissional na
+                        área da tecnologia.
+                        Estou constantemente criando aplicações Web que são disponibilizadas em meu perfil do GitHub. Além do
+                        desenvolvimento profissional, procuro me desenvolver no âmbito pessoal buscando
+                        sempre mais conhecimento. Sigo em busca de melhorias e aprendizado de novas tecnologias.</p>
+                        <button type="button" class="btn btn-sm" id="btn-download"><a href="/Debora_Fonseca_CV_ TI.pdf" download>Download CV</a></button>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 mt-5" id="skills">
+                <div class="skills-title">
+                    <h4>Habilidades</h4>
+                </div>
+                <div class="skills">
+                    <div class="card-skills">
+                        <div class="card" id="card-tec" style="width: 15rem;">
+                            <i class="fa-brands fa-html5 fa-3x" style="color: #000000;"></i>
+                            <div class="card-body">
+                                <p class="card-text">HTML</p>
+                            </div>
+                        </div>
+                        <div class="card" id="card-tec" style="width: 15rem;">
+                            <i class="fa-brands fa-css3-alt fa-3x" style="color: #000000;"></i>
+                            <div class="card-body">
+                                <p class="card-text">CSS</p>
+                            </div>
+                        </div>
+                        <div class="card" id="card-tec" style="width: 15rem;">
+                            <i class="fa-brands fa-sass fa-3x" style="color: #000000;"></i>
+                            <div class="card-body">
+                                <p class="card-text">SASS</p>
+                            </div>
+                        </div>
+                        <div class="card" id="card-tec" style="width: 15rem;">
+                            <i class="fa-brands fa-bootstrap fa-3x" style="color: #000000;"></i>
+                            <div class="card-body">
+                                <p class="card-text">Bootstrap</p>
+                            </div>
+                        </div>
+                        <div class="card" id="card-tec" style="width: 15rem;">
+                            <i class="fa-brands fa-js fa-3x" style="color: #000000;"></i>
+                            <div class="card-body">
+                                <p class="card-text">JavaScript</p>
+                            </div>
+                        </div>
+                        <div class="card" id="card-tec" style="width: 15rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
+                                <path d="M 25 2 C 24.285156 2 23.570313 2.179688 22.933594 2.539063 L 6.089844 12.003906 C 4.800781 12.726563 4 14.082031 4 15.535156 L 4 34.464844 C 4 35.917969 4.800781 37.273438 6.089844 37.996094 L 22.933594 47.460938 C 23.570313 47.820313 24.285156 48 25 48 C 25.714844 48 26.429688 47.820313 27.066406 47.460938 L 43.910156 38 C 45.199219 37.273438 46 35.917969 46 34.464844 L 46 15.535156 C 46 14.082031 45.199219 12.726563 43.910156 12.003906 L 27.066406 2.539063 C 26.429688 2.179688 25.714844 2 25 2 Z M 25 13 C 28.78125 13 32.277344 14.753906 34.542969 17.738281 L 30.160156 20.277344 C 28.84375 18.835938 26.972656 18 25 18 C 21.140625 18 18 21.140625 18 25 C 18 28.859375 21.140625 32 25 32 C 26.972656 32 28.84375 31.164063 30.160156 29.722656 L 34.542969 32.261719 C 32.277344 35.246094 28.78125 37 25 37 C 18.382813 37 13 31.617188 13 25 C 13 18.382813 18.382813 13 25 13 Z M 35 20 L 37 20 L 37 22 L 39 22 L 39 20 L 41 20 L 41 22 L 43 22 L 43 24 L 41 24 L 41 26 L 43 26 L 43 28 L 41 28 L 41 30 L 39 30 L 39 28 L 37 28 L 37 30 L 35 30 L 35 28 L 33 28 L 33 26 L 35 26 L 35 24 L 33 24 L 33 22 L 35 22 Z M 37 24 L 37 26 L 39 26 L 39 24 Z"></path>
+                            </svg>
+                            <div class="card-body">
+                                <p class="card-text">C#</p>
+                            </div>
+                        </div>
+                        <div class="card" id="card-tec" style="width: 15rem;">
+                            <i class="fa-brands fa-git-alt fa-3x" style="color: #000000;"></i>
+                            <div class="card-body">
+                                <p class="card-text">Git</p>
+                            </div>
+                        </div>
+                        <div class="card" id="card-tec" style="width: 15rem;">
+                            <i class="fa-brands fa-github fa-3x" style="color: #000000;"></i>
+                            <div class="card-body">
+                                <p class="card-text">GitHub</p>
+                            </div>
+                        </div>
+                        <div class="card" id="card-tec" style="width: 15rem;">
+                            <i class="fa fa-database fa-3x" style="color: #000000;"></i>
+                            <div class="card-body">
+                                <p class="card-text">SQL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="projects mt-5" id="projects">
+            <h4>Principais projetos</h4>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                <div class="col mb-5">
+                    <div class="card" id="card-project">
+                        <img src="./img/planner.png" class="card-img-top" alt="planner">
+                        <div class="card-body">
+                            <p class="card-text">Projeto desenvolvido durante o NLW Journey - Fullstack da Rocketseat, que simula um Planner para organizar e planejar atividades.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div id="badge">
+                                <h6><span class="badge badge-light">HTML</span></h6>
+                                <h6><span class="badge badge-light">CSS</span></h6>
+                                <h6><span class="badge badge-light">JavaScript</span></h6>
+                            </div>
+                            <div id="link">
+                                <button type="button" class="btn btn-sm" id="btn-project"><a href="https://planner-deboradrf.netlify.app" target="_blank">Ver Projeto</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card" id="card-project">
+                        <img src="./img/conversormoedas.png" class="card-img-top" alt="conversordemoedas">
+                        <div class="card-body">
+                            <p class="card-text">Projeto desenvolvido durante a Imersão DEV 7ª Edição da Alura, que simula um conversor de moedas.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div id="badge">
+                                <h6><span class="badge badge-light">HTML</span></h6>
+                                <h6><span class="badge badge-light">CSS</span></h6>
+                                <h6><span class="badge badge-light">JavaScript</span></h6>
+                            </div>
+                            <div id="link">
+                                <button type="button" class="btn btn-sm" id="btn-project"><a href="https://conversordemoeda-deboradrf.netlify.app" target="_blank">Ver Projeto</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card" id="card-project">
+                        <img src="./img/previsaotempo.png" class="card-img-top" alt="previsaotempo">
+                        <div class="card-body">
+                            <p class="card-text">Projeto desenvolvido para fixação de conteúdo, que simula um aplicativo de previsão do tempo, onde fornece informações sobre o clima, umidade e temperatura do local desejado, utilizando uma API.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div id="badge">
+                                <h6><span class="badge badge-light">HTML</span></h6>
+                                <h6><span class="badge badge-light">CSS</span></h6>
+                                <h6><span class="badge badge-light">JavaScript</span></h6>
+                            </div>
+                            <div id="link">
+                                <button type="button" class="btn btn-sm" id="btn-project"><a href="https://previsaotempo-deboradrf.netlify.app" target="_blank">Ver Projeto</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card" id="card-project">
+                        <img src="./img/audiobook.png" class="card-img-top" alt="audiobook">
+                        <div class="card-body">
+                            <p class="card-text">Projeto desenvolvido durante o Intensivão JavaScript da Hashtag Treinamentos, que simula um AudioBook do livro Dom Casmurro, contendo 10 capítulos.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div id="badge">
+                                <h6><span class="badge badge-light">HTML</span></h6>
+                                <h6><span class="badge badge-light">CSS</span></h6>
+                                <h6><span class="badge badge-light">Bootstrap</span></h6>
+                                <h6><span class="badge badge-light">JavaScript</span></h6>
+                            </div>
+                            <div id="link">
+                                <button type="button" class="btn btn-sm" id="btn-project"><a href="https://audiobook-deboradrf.netlify.app" target="_blank">Ver Projeto</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card" id="card-project">
+                        <img src="./img/biblioteca.png" class="card-img-top" alt="biblioteca">
+                        <div class="card-body">
+                            <p class="card-text">Projeto desenvolvido para disciplina de Desenvolvimento de Interfaces Web, do curso de Análise e Desenvolvimento de Sistemas, que simula uma biblioteca para controle de livros.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div id="badge">
+                                <h6><span class="badge badge-light">HTML</span></h6>
+                                <h6><span class="badge badge-light">CSS</span></h6>
+                                <h6><span class="badge badge-light">Bootstrap</span></h6>
+                                <h6><span class="badge badge-light">JavaScript</span></h6>
+                            </div>
+                            <div id="link">
+                                <button type="button" class="btn btn-sm" id="btn-project"><a href="https://biblioteca-deboradrf.netlify.app" target="_blank">Ver Projeto</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card" id="card-project">
+                        <img src="./img/jogo.png" class="card-img-top" alt="jogoadv">
+                        <div class="card-body">
+                            <p class="card-text">Projeto desenvolvido durante a Imersão DEV 7ª Edição da Alura, que simula um jogo de adivinhação, onde é gerado um número aleatório e o jogador tenta adivinhá-lo.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div id="badge">
+                                <h6><span class="badge badge-light">HTML</span></h6>
+                                <h6><span class="badge badge-light">CSS</span></h6>
+                                <h6><span class="badge badge-light">Bootstrap</span></h6>
+                                <h6><span class="badge badge-light">JavaScript</span></h6>
+                            </div>
+                            <div id="link">
+                                <button type="button" class="btn btn-sm" id="btn-project"><a href="https://jogoadivinhacao-deboradrf.netlify.app" target="_blank">Ver Projeto</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card" id="card-project">
+                        <img src="./img/galeria.png" class="card-img-top" alt="galeria">
+                        <div class="card-body">
+                            <p class="card-text">Projeto desenvolvido para fixação de conteúdo, que simula uma galeria de fotos.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div id="badge">
+                                <h6><span class="badge badge-light">HTML</span></h6>
+                                <h6><span class="badge badge-light">CSS</span></h6>
+                                <h6><span class="badge badge-light">SASS</span></h6>
+                            </div>
+                            <div id="link">
+                                <button type="button" class="btn btn-sm" id="btn-project"><a href="https://galeria-deboradrf.netlify.app" target="_blank">Ver Projeto</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <div class="card" id="card-project">
+                        <img src="./img/login-cadastro.png" class="card-img-top" alt="login/cadastro">
+                        <div class="card-body">
+                            <p class="card-text">Projeto desenvolvido para disciplina de Desenvolvimento de Interfaces Web, do curso de Análise e Desenvolvimento de Sistemas, que apresenta uma tela de login e cadastro funcional, utilizando o LocalStorage.</p>
+                        </div>
+                        <div class="card-footer">
+                            <div id="badge">
+                                <h6><span class="badge badge-light">HTML</span></h6>
+                                <h6><span class="badge badge-light">CSS</span></h6>
+                                <h6><span class="badge badge-light">Bootstrap</span></h6>
+                                <h6><span class="badge badge-light">JavaScript</span></h6>
+                            </div>
+                            <div id="link">
+                                <button type="button" class="btn btn-sm" id="btn-project"><a href="https://logincadastro-deboradrf.netlify.app" target="_blank">Ver Projeto</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr style="width:30%; margin-left: auto; margin-right: auto;">
+
+    <section class="github">
+        <p><a href="https://github.com/deboradrf?tab=repositories" target="_blank">Ver todos os projetos</a></p>
+    </section>
+
+    <footer id="contato">
+        <a href="tel:+5531992647540"><i class="fa-brands fa-whatsapp fa-3x m-5" style="color: #ffffff;"></i></a>
+        <a href="https://www.linkedin.com/in/deborapfonseca/" target="_blank"><i class="fa-brands fa-linkedin fa-3x m-5" style="color: #ffffff;"></i></a>
+        <a href=mailto:deborapfonseca@yahoo.com><i class="fa-solid fa-envelope fa-3x m-5" style="color: #ffffff;"></i></a>
+        <a href="https://github.com/deboradrf" target="_blank"><i class="fa-brands fa-github fa-3x m-5" style="color: #ffffff;"></i></a>
+    </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
