@@ -4,8 +4,8 @@
   <img src="https://img.shields.io/github/stars/deboradrf?style=social">
 </p>
 
-## 📚 Descrição
+### 📚 Descrição
 Meu portfolio.
 
-## 📁 Acesso ao projeto
+### 📁 Acesso ao projeto
 Hospedado no Netlify `https://portfolio-deboradrf.netlify.app`
