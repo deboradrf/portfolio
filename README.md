@@ -8,5 +8,4 @@
 Meu portfolio.
 
 ## 📁 Acesso ao projeto
-Hospedado no Netlify <br>
-Link: https://portfolio-deboradrf.netlify.app
+Hospedado no Netlify `https://portfolio-deboradrf.netlify.app`
